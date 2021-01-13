@@ -1,0 +1,74 @@
+.Container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .Form {
+    width: 360px;
+    height: 410px;
+    padding: 28px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-top: 2px solid #06874e;
+    .Title {
+      width: 100%;
+      margin: 0 0 20px 0;
+      font-size: 27px;
+      font-weight: 600;
+      text-align: center;
+    }
+    .InputLabel {
+      font-size: 16px;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+    .InputBox {
+      font-size: 16px;
+      height: 42px;
+      padding: 0 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ced4da;
+    }
+    .CheckBoxGroup {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+      .CheckBox {
+        width: 16px;
+        height: 16px;
+        margin: 0 5px 0 0;
+      }
+      .CheckBoxLabel {
+        margin-top: 3px;
+      }
+    }
+    .Button {
+      height: 40px;
+      font-size: 18px;
+      color: white;
+      background-color: #06874e;
+      margin-bottom: 15px;
+      border: none;
+      outline: none;
+      &:hover {
+        opacity: 0.8;
+      }
+      &:active {
+        opacity: 0.5;
+        border: none;
+      }
+    }
+    .LinkBox {
+      width: 100%;
+      text-align: center;
+      font-weight: 300;
+      margin: 5px 0;
+      .Link {
+        color: black;
+        font-weight: 600;
+      }
+    }
+  }
+}
