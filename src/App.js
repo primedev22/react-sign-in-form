@@ -8,7 +8,7 @@ import ConfirmEmail from './pages/ConfirmEmail';
 function App() {
   return (
     <BrowserRouter>
-      <div class="App">
+      <div className="App">
         <Switch>
           <Route path="/sign-in">
             <SignIn />

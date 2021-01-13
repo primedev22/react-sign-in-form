@@ -28,8 +28,13 @@
       font-size: 16px;
       height: 42px;
       padding: 0 10px;
-      margin-bottom: 20px;
       border: 1px solid #ced4da;
+    }
+    .InputError {
+      color: red;
+      font-size: 12px;
+      line-height: 20px;
+      height: 20px;
     }
     .CheckBoxGroup {
       display: flex;
