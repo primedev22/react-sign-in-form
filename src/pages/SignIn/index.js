@@ -39,7 +39,7 @@ export default function SignIn() {
           autoFocus
         />
         <span className={styles.InputError}>
-          {errors.email ? 'Email is required' : ''}
+          {errors.email ? '⚠ Email is required' : ''}
         </span>
         <label className={styles.InputLabel} htmlFor="password">
           Password
@@ -52,7 +52,7 @@ export default function SignIn() {
           ref={register({ required: true })}
         />
         <span className={styles.InputError}>
-          {errors.password ? 'Password is required' : ''}
+          {errors.password ? '⚠ Password is required' : ''}
         </span>
         <div className={styles.CheckBoxGroup}>
           <input
