@@ -36,6 +36,7 @@ export default function SignIn() {
           id="email"
           name="email"
           ref={register({ required: true })}
+          autoFocus
         />
         <span className={styles.InputError}>
           {errors.email ? 'Email is required' : ''}
